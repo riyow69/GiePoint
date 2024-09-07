@@ -1,0 +1,19 @@
+{
+  "name": "uc_giepoint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./dist/res/css/input.css -o ./dist/res/css/output.css --watch",
+    "build": "tailwindcss build -i ./dist/res/css/input.css -o ./dist/res/css/output.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.10"
+  },
+  "dependencies": {
+    "uc_giepoint": "file:"
+  }
+}
